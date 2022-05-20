@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  font-family: "Indie Flower", cursive;
+}
+.edit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.editContacts input {
+  margin: 0 5px;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.editContacts input::placeholder {
+  color: rgb(40, 40, 160);
+}
+.editContactsBtn {
+  padding: 10px;
+  color: black;
+  width: 130px;
+  height: 50px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: rgb(229, 233, 192);
+}
